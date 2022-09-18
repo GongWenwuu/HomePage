@@ -89,13 +89,14 @@
       <img style="width: 80%;max-width: 320px" alt="profile photo" src="images/profile.jpg">
       <h1>Wenwu GONG</h1>
         <p class="w3-justify" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;max-width:600px">
-          I am a phd student at <a href="https://stat-ds.sustech.edu.cn/"> Department of Statistics and Data Science, SUSTech, Shenzhen, where I work on tensor learning, data mining, and spatiotemporal traffic data analysis, etc. 
-		I did my master at <a href="http://math.hit.edu.cn/"> School of Mathematics, HIT 
-		and bachelor at <a href="http://smcs.ncu.edu.cn/"> School of Mathematics and Computer Sciences, NCU.
+          I am a phd student at <a href="https://stat-ds.sustech.edu.cn/"> Department of Statistics and Data Science, SUSTech</a>, Shenzhen, where I work on tensor learning, data mining, and spatiotemporal traffic data analysis, etc. 
+		I did my master at <a href="http://math.hit.edu.cn/"> School of Mathematics, HIT</a> 
+		and bachelor at <a href="http://smcs.ncu.edu.cn/"> School of Mathematics and Computer Sciences, NCU</a>.
         </p>
         <p class="w3-center">
           Email: 12031299@mail.sustech.edu.cn &nbsp/&nbsp
           <a href="https://scholar.google.com/citations?user=H_NURZQAAAAJ&hl=zh-TW">Google Scholar</a> &nbsp/&nbsp
+	  <a href="https://github.com/GongWenwuu">GitHub</a> &nbsp/&nbsp
         </p>
         </tbody></table>
   </div>
@@ -103,8 +104,7 @@
 <!-- The News Section -->
   <div class="w3-container w3-light-grey w3-padding-32" id="news">
    <h2>News</h2>
-      <p><li> 04/2022, 8 papers have been accepted by <a href="https://openaccess.thecvf.com/CVPR2022">CVPR 2022</a>. </li></p>
-   	  <p><li> 02/2022, Our suvery paper on vision transformer has been accepted by <a href="https://arxiv.org/pdf/2012.12556">IEEE TPAMI</a>.</li></p>
+      <p><li> 09/2022, 1 papers have been accepted by <a href="https://nhess.copernicus.org/preprints/nhess-2021-263/"> NHESS</a>. </li></p>
       <!--
      
   </div>
@@ -112,34 +112,24 @@
   <div class="w3-container w3-padding-32" id="projects">
     <h2>Recent Projects</h2>
     <p class="w3-justify">
-        Actually, model compression is a kind of technique for developing portable deep neural networks with lower memory and computation costs. I have done several projects in Huawei including some smartphones' applications in 2019 and 2020 (e.g. Mate 30 and Honor V30). Currently, I am leading the AdderNet project, which aims to develop a series of deep learning models using only additions (<a href="https://www.reddit.com/r/MachineLearning/comments/ekw2s1/r_addernet_do_we_really_need_multiplications_in/">Discussions on Reddit</a>).
+        Tensor analysis provides a systematic way of analyzing large-scale multivariate and multidimensional data. 
+	    Currently, I foucs on using low-rank tensor learning framework to model multivariate spatiotemporal traffic analysis tasks, including completion, forecasting and clustering. (<a href="https://github.com/GongWenwuu/LRTL-Methods-and-Applications"></a>).
     </p>
 
-        <h4><li>Adder Neural Networks</li></h4>
-        <img style="width:96%;" src="images/AdderNet.jpg"> 
+        <h4><li>Low Rank Tensor Learning Methods and Its Applications on ITS</li></h4>
+        <img style="width:96%;" src="images/Tensorlearning.png"> 
         <p class="w3-justify">
-        <a style="color: #447ec9" href="https://github.com/huawei-noah/AdderNet">Project Page</a> | <a style="color: #447ec9" href="https://arxiv.org/pdf/2101.10015.pdf">Hardware Implementation</a>
+        <a style="color: #447ec9" href="https://github.com/GongWenwuu/LRTL-Methods-and-Applications">Project Page</a>
         </p>
         <p class="w3-justify">
-        I would like to say, <span style="color:red">AdderNet is very cool!</span> The initial idea was came up in about 2017 when climbing with some friends at Beijing. By replacing all convolutional layers (except the first and the last layers), we now can obtain comparable performance on ResNet architectures. In addition, to make the story more complete, we recent release the hardware implementation and some quantization methods. The results are quite encouraging, we can reduce both <strong>the energy consumption and thecircuit areas significantly without affecting the performance</strong>. Now, we are working on more applications to reduce the costs of launching AI algorithms such as low-level vision, detection, and NLP tasks.
+        I would like to say, <span style="color:red"> the Methods and Applications is very cool!</span> Our proposal is built upon modern techniques such as low-rank tensor learning, high dimensional vector autoregressive model, Bayesian factorization model, and subspace learning. 
+		We unify the domain of tensor methods and spatiotemporal data analysis and shows the practicability of the methods on large-scale traffic data tasks, which is an essential step towards learning from real-world transpor-tation networks
         </p> 
 
-        <h4><li>GhostNet on MindSpore: SOTA Lightweight CV Networks</li></h4>
-        <img style="width:96%;" src="images/GhostNet.png"> 
+        <h4><li>ManiRTD</li></h4>
+        <img style="width:96%;" src="images/ManiRTD.png"> 
         <p class="w3-justify">
-        <a style="color: #447ec9" href="https://live.huawei.com/huaweiconnect/meeting/cn/5872.html">Huawei Connect (HC) 2020</a> | <a style="color: #447ec9" href="https://www.mindspore.cn/resources/hub">MindSpore Hub</a>
-        </p>
-        <p class="w3-justify">
-        The initial verison of GhostNet was accepted by CVPR 2020, which achieved SOTA performance on ImageNet: <span style="color:red">75.7%</span> top1 acc with only <span style="color:red">226M FLOPS</span>. In the current version, we release a series computer vision models (e.g. int8 quantization, detection, and larger networks) on <strong>MindsSpore 1.0</strong> and <strong>Mate 30 Pro (Kirin 990)</strong>.
-        </p> 
-
-        <h4><li>AI on Ascend: Real-Time Video Style Transfer</li></h4>
-        <img style="width:32%;" src="images/atlas200.png"> &nbsp&nbsp <img style="width:60%;" src="images/video.gif">
-        <p class="w3-justify">
-        <a style="color: #447ec9" href="https://www.huaweicloud.com/intl/en-us/HDC.Cloud.html">Huawei Developer Conference (HDC) 2020</a> | <a style="color: #447ec9" href="https://developer.huaweicloud.com/exhibition/Atlas_neural_style.html">Online Demo</a>
-        </p>
-        <p class="w3-justify">
-        This project aims to develop a video style transfer system on the <strong>Huawei Atlas 200 DK AI developer Kit</strong>. The latency of the original model for processing one image is about <span style="color:red">630ms</span>. After accelerating it using our method, the lantency now is about <span style="color:red">40ms</span>. 
+        <a style="color: #447ec9"> The manuscript is coming soon!
         </p>  
 
   </div>
@@ -148,9 +138,6 @@
   <div class="w3-container w3-light-grey w3-padding-32" id="talks">
     <h2>Talks</h2>
       <p><li> 10/2021, Vision Transformer at <a href="http://valser.org/2021/#/tutorial">VALSE 2021, Hangzhou, China</a>.</li></p>
-	  <p><li> 05/2021, Adder Neural Network at <a href="https://haet2021.github.io/speakers.html">HAET ICLR 2021 workshop</a>. Thanks <a href="https://datawisdom.ca/">Vahid</a> for the invitation.</li></p>
-      <p><li> 06/2020, "<a href="http://valser.org/webinar/slide/slides/20200603/%E6%A8%A1%E5%9E%8B%E5%8E%8B%E7%BC%A9-%E5%B7%A5%E4%B8%9A%E7%95%8C%E5%92%8C%E5%AD%A6%E6%9C%AF%E7%95%8C%E7%9A%84%E5%B7%AE%E5%BC%82.pdf">AI on the Edge - Discussion on the Gap Between Industry and Academia</a>" at <a  href="http://valser.org/"><strong>VALSE</strong></a> Webinar.</li></p>
-      <p><li> 05/2020, "<a href="https://www.bilibili.com/video/av925692420/">Edge AI: Progress and Future Directions</a>" at <a href="https://www.qbitai.com/"> <strong>QbitAI</strong></a> using <a  href="https://www.bilibili.com/"><strong>bilibili</strong></a>.</li></p>
   </div>
  <!-- The Publications Section -->
   <div class="w3-container w3-padding-32"" id="publications">
